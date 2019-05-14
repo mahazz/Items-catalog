@@ -1,0 +1,54 @@
+{% extends "main.html" %}
+{% block content %}
+	
+
+	<div class="row">
+	    
+		<div class="col-md-1"></div>
+		<div class="col-md-11 padding-none">
+			<h1 style="color:#fff; font-weight:bold; display: inline-block;">Catalog App</h1>
+			<div class="col-md-10"></div>
+		<div class="col-md-2 text-right">
+		<button class="button" style="margin-left: 100px;background-color:#e34d07;padding: 10px 20px;
+    font-size: 16px;box-sizing: border-box;border-radius: 4px;color:#fff;border: none;">
+			<a href="{{url_for('showLogin')}}" style="color:#fff;">Login </a></button>
+		</div>
+		</div>
+		</div>
+	
+
+	<div class = 'flash'>
+		      {% with messages = get_flashed_messages() %}
+      {% if messages %}
+          
+        <ul>
+        {% for message in messages %}
+            <li> <strong> {{ message }} </strong> </li>
+        {% endfor %}
+        </ul>
+        {% endif %}
+    {% endwith %}
+
+</div>
+
+
+	
+	<div class="row padding-top padding-bottom">
+		<div class="col-md-1"></div>
+		<div class="col-md-10 padding-none">
+			
+		</div>
+		<div class="col-md-1"></div>
+	</div>
+	{% for restaurant in restaurants %}
+		<a href = "{{url_for('showMenu', restaurant_id = restaurant.id)}}">
+			<div class="row">
+				<div class="col-md-1"></div>
+					<div class="col-md-10 restaurant-list">
+						<h3>{{restaurant.name}}</h3>
+					</div>
+				<div class="col-md-1"></div>
+			</div>
+		</a>
+	{% endfor %}
+{% endblock %}
