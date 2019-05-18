@@ -1,10 +1,10 @@
 
 
-# item-catalog
+# item-catalog :trophy:
 ## About
 develop an application that provides a list of items within a variety of categories as well as provide a user registration and authentication system. Registered users will have the ability to post, edit and delete their own items.
 
-## Why This Project?
+## Why This Project? :construction::triangular_flag_on_post:
 Modern web applications perform a variety of functions and provide amazing features and utilities to their users; but deep down, it’s really all just creating, reading, updating and deleting data. In this project, you’ll combine your knowledge of building dynamic websites with persistent data storage to create a web application that provides a compelling service to your users.
 
 ## Acquired skills
@@ -17,12 +17,12 @@ Modern web applications perform a variety of functions and provide amazing featu
 - OAuth
 - Facebook / Google Login
 
-## Requirement
+## Requirement :checkered_flag:
 - [Vagrant](https://www.vagrantup.com/)
 - [Udacity Vagrantfile](https://github.com/udacity/fullstack-nanodegree-vm)
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 
-## To start
+## How to run :dart:
 Install Vagrant and VirtualBox
 Clone the fullstack-nanodegree-vm
 Launch the Vagrant VM (vagrant up)
