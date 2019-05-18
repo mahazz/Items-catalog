@@ -7,7 +7,7 @@ develop an application that provides a list of items within a variety of categor
 ## Why This Project? :construction::triangular_flag_on_post:
 Modern web applications perform a variety of functions and provide amazing features and utilities to their users; but deep down, it’s really all just creating, reading, updating and deleting data. In this project, you’ll combine your knowledge of building dynamic websites with persistent data storage to create a web application that provides a compelling service to your users.
 
-## Acquired skills
+## Acquired skills :blush:
 - Python
 - HTML/CSS
 - Bootstrap
