@@ -32,7 +32,7 @@ You will learn how to develop a RESTful web application using the Python framewo
 3-Launch the Vagrant VM (vagrant up)
 4-Write your Flask application locally in the vagrant/catalog directory (which will automatically be synced to /vagrant/catalog within the VM).
 5-Run your application within the VM (python /vagrant/catalog/application.py)
-6-Access and test your application by visiting http://localhost:5000 locally
+6-Access and test your application by visiting http://localhost:8000 locally
 
 ### JSON Endpoints
 
