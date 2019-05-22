@@ -1,16 +1,16 @@
 
 
-# item-catalog :trophy:
+# item-catalog 
 ## Project Overview
 > To Develop an application that provides a list of items within a variety of categories as well as provide a user registration and authentication system. Registered users will have the ability to post, edit and delete their own items.
 
-## Why This Project? :construction::triangular_flag_on_post:
+## Why This Project? 
 > Modern web applications perform a variety of functions and provide amazing features and utilities to their users; but deep down, it’s really all just creating, reading, updating and deleting data. In this project, you’ll combine your knowledge of building dynamic websites with persistent data storage to create a web application that provides a compelling service to your users.
 
 ## What Will I Learn?
 You will learn how to develop a RESTful web application using the Python framework Flask along with implementing third-party OAuth authentication. You will then learn when to properly use the various HTTP methods available to you and how these methods relate to CRUD (create, read, update and delete) operations.
   
-## Skills :blush:
+## Skills 
 - Python
 - HTML/CSS
 - Bootstrap
@@ -21,12 +21,12 @@ You will learn how to develop a RESTful web application using the Python framewo
 - Facebook / Google Login
 
 ## How to Run?
-### PreRequisites :checkered_flag:
+### PreRequisites 
 - [Vagrant](https://www.vagrantup.com/)
 - [Udacity Vagrantfile](https://github.com/udacity/fullstack-nanodegree-vm)
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 
-### Setup Project :dart:
+### Setup Project 
 1-Install Vagrant and VirtualBox
 2-Clone the fullstack-nanodegree-vm
 3-Launch the Vagrant VM (vagrant up)
@@ -68,6 +68,11 @@ Category JSON: `/api/v1/categories/JSON` - Returns JSON of all categories in cat
 '/categories/<int:category_id>/item/<int:catalog_item_id>/edit' - return "This page will be for making a updating catalog item"
 
 '/categories/<int:category_id>/item/<int:catalog_item_id>/delete' - return "This page will be for deleting a catalog item"
+
+## Know issues
+
+- No validation on forms
+
 
 
 
